@@ -1,1 +1,1 @@
-A sudoku solver. Allows users enter an existing puzzle, have the app solve it but now show the user the entries unless the use explicitly uncovers a square. Useful as a guide to solve difficult sudoku puzzles.  
+A sudoku solver. Allows users enter an existing puzzle, have the app solve it but not show the user the solved puzzle unless the use explicitly uncovers squares. Useful as a guide to solve difficult sudoku puzzles.  
