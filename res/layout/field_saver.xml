@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/field_saver"	
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#ff0000">
+
+   <TextView
+        android:id="@+id/title"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:text="enter a save name" />
+
+    <EditText
+        android:id="@+id/save_name"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:text="default" />
+	
+    <LinearLayout
+        android:id="@+id/field_saver"	
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="#ff0000">
+	    
+	    <Button
+	        android:id="@+id/save_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:text="save name" />
+	    
+	    <Button
+	        android:id="@+id/cancel_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:text="cancel" />
+	    
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="36dip"
+    android:layout_height="36dip"
+    android:gravity="center"
+    android:padding="1dip">			                   	             
+    
+    <ImageView
+        android:id="@+id/number_picker_color"
+        android:layout_width="36dip"
+   		android:layout_height="36dip">		               
+    </ImageView>
+        
+    <TextView
+        android:id="@+id/number_picker_text"
+        android:layout_width="36dip"
+   		android:layout_height="36dip"
+   		android:gravity="center">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/number_picker_location"
+        android:layout_width="36dip"
+   		android:layout_height="36dip"
+   		android:visibility="gone">
+    </TextView>
+ 
+</RelativeLayout>

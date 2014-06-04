@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">SudokuHelper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="save">save field</string>
+    <string name="title_activity_sudoku_helper">SudokuHelper</string>
+    <string name="save_field">save field</string>
+    <string name="load_field">load field</string>
+    
+</resources>
